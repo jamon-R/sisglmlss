@@ -1,12 +1,12 @@
 Package: sisglmlss
-Version: 0.1-2
+Version: 0.2-1
 Date: 2021-02-07
 Title: Sure Independence Screening for Generalized Linear Models for Location, Scale and Shape
 Authors@R: c(person("Julian", "Amon", email = "julian.amon@wu.ac.at", role=c("aut", "cre")))
-Depends: R (>= 4.0.0)
-Imports: gamlss, gamlss.dist, gamlss.lasso2, parallel
+Depends: R (>= 4.0.0), gamlss.lasso2 (>= 1.0-2)
+Imports: gamlss, gamlss.dist, parallel
 Description: This package enables variable selection based on sure independence screening in
 	generalized linear models for location, scale and shape (GLMLSS).
-License: GPL-2
+License: GPL-3
 Author: Julian Amon [aut, cre]
 Maintainer: Julian Amon <julian.amon@wu.ac.at>
