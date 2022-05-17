@@ -1,0 +1,13 @@
+##Imports:
+import("gamlss")
+import("gamlss.dist")
+import("gamlss.lasso2")
+import("parallel")
+importFrom("stats", "as.formula", "coef", "deviance", "quantile", "setNames")
+importFrom("utils", "tail")
+
+##Exports:
+export("sisglmlss")
+
+## Methods to be registered.
+S3method("print", "sisglmlss")
